@@ -1,5 +1,5 @@
 header {
-  background-color: var(--background-tertiary-color);
+  background-color: var(--background-tertiary-color); /* preto */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -12,7 +12,7 @@ header {
 .logo {
   display: inline-block;
   width: 68px;
-  width: 64px;
+  height: 64px;
 }
 
 .img-desktop{
