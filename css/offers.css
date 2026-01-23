@@ -65,6 +65,13 @@ div .titulo-oferta{
   background-size: cover;
 } */
 
+.offer-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .card {
   background-color: black;
 
@@ -109,9 +116,49 @@ div .titulo-oferta{
   margin-top: 24px;
 }
 
+.card.japao {
+  background: url(../img/cardPromocao/card-japao-mobile-promo.png) no-repeat;
+  background-size: cover;
+}
+
+.card.san-andreas {
+  background: url(../img/cardPromocao/card-san-andreas-mobile-promo.png) no-repeat;
+  background-size: cover;
+}
+
+.card.paraiba {
+  background: url(../img/cardPromocao/card-paraiba-mobile-promo.png) no-repeat;
+  background-size: cover;
+}
+
+.card.manaus {
+  background: url(../img/cardPromocao/card-manaus-mobile-promo.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .offer-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 984px) {
+  .offer-cards {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 1024px) {
+  .offer-cards {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
   .card {
-    width: 588px;
+    width: 420px;
     height: 308px;
   }
 
@@ -122,5 +169,45 @@ div .titulo-oferta{
 
   .card header span {
     font-size: 40px;
+  }
+
+  .card.japao {
+    background: url(../img/cardPromocao/card-japao-desktop-promo.png) no-repeat;
+    background-size: cover;
+  }
+
+  .card.san-andreas {
+    background: url(../img/cardPromocao/card-san-andreas-desktop-promo.png) no-repeat;
+    background-size: cover;
+  }
+
+  .card.paraiba {
+    background: url(../img/cardPromocao/card-paraiba-desktop-promo.png) no-repeat;
+    background-size: cover;
+  }
+
+  .card.manaus {
+    background: url(../img/cardPromocao/card-manaus-desktop-promo.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1308px) {
+  .offer-cards {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .offer-cards {
+    width: 1250px;
+    margin: 0 auto;
   }
 }
