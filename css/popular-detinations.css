@@ -6,3 +6,55 @@
   margin-bottom: 24px;
   position: static;
 }
+
+.popular-destinations .section-title h2 {
+  display: block;
+  font-size: 32px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.item {
+  display: block;
+  width: 312px;
+  height: 754px;
+  margin: 0 auto;
+}
+
+.item .img-item {
+  display: block;
+  width: 312px;
+  height: 360px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin-bottom: 24px;
+}
+
+.item .img-tokyo {
+  background-image: url(../img/destinos-populares/Tokyo-mobile.jpg);
+
+}
+
+.item header h4 {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  margin: 0;
+}
+
+.item p {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+}
+
+.item footer a {
+  width: 312px;
+
+  margin-top: 24px;
+  text-align: center;
+}
+
+.item .img-osaka {
+  background-image: url(../img/destinos-populares/Osaka-mobile.jpg);
+}
