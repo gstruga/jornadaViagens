@@ -1,0 +1,8 @@
+.popular-destinations header {
+  display: block;
+  background-color: transparent;
+
+  padding: 0;
+  margin-bottom: 24px;
+  position: static;
+}
