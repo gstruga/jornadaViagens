@@ -65,6 +65,10 @@ div .titulo-oferta{
   background-size: cover;
 } */
 
+.offers {
+  margin-bottom: 88px;
+}
+
 .offer-cards {
   display: flex;
   flex-direction: column;
@@ -156,7 +160,7 @@ div .titulo-oferta{
     width: 1024px;
     margin: 0 auto;
   }
-  
+
   .card {
     width: 420px;
     height: 308px;
