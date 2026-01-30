@@ -1,11 +1,12 @@
-.category-search .section-title {
-  margin-top: 88px;
+.category-search {
+  margin-bottom: 88px;
 }
 
 .category-search .section-title h2 {
   display: block;
   width: 200px;
   margin: 0 auto;
+  font-size: 32px;
 }
 
 .categories {

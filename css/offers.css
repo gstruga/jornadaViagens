@@ -65,6 +65,10 @@ div .titulo-oferta{
   background-size: cover;
 } */
 
+.offers {
+  margin-bottom: 88px;
+}
+
 .offer-cards {
   display: flex;
   flex-direction: column;
@@ -87,14 +91,6 @@ div .titulo-oferta{
   text-align: center;
 }
 
-.card header {
-  display: block;
-  background-color: transparent;
-
-  padding: 0;
-  margin-bottom: 24px;
-  position: static;
-}
 
 .card header p {
   font-size: 20px;
@@ -140,7 +136,8 @@ div .titulo-oferta{
   .offer-cards {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    /*     justify-content: center;
+ */
   }
 }
 
@@ -156,7 +153,7 @@ div .titulo-oferta{
     width: 1024px;
     margin: 0 auto;
   }
-  
+
   .card {
     width: 420px;
     height: 308px;
@@ -194,12 +191,19 @@ div .titulo-oferta{
 
 @media screen and (min-width: 1308px) {
   .offer-cards {
-    width: 1200px;
+    /* width: 1200px; */
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .offer-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
   .card {
     width: 588px;
   }
