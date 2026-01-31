@@ -29,15 +29,9 @@
 }
 
 .item header h4 {
-  font-weight: var(--title-weight);
-  font-size: 28px;
   margin: 0;
 }
 
-.item p {
-  font-weight: var(--text-weight);
-  font-size: 20px;
-}
 
 .item footer a {
   width: 312px;
