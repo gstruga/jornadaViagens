@@ -50,6 +50,16 @@ p {
   line-height: 32px;
 }
 
+.content-title {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+}
+
+.content-text {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+}
+
 section {
   width: 312px;
   margin: 0 auto 88px;
