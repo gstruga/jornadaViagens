@@ -52,10 +52,20 @@
 
   .payments .img-content {
     width: 790px;
+    margin-top: 0;
   }
 
   .payments .contents .text-content {
     width: 360px;
+    margin: 0;
+
+
+  }
+
+  .payments .contents .text-content h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
   }
 
   .payments .bag {
