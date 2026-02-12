@@ -50,4 +50,21 @@
   }
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  .hero-pacotes {
+    height: 620px;
+  }
+
+  .hero .hero-img-pacotes {
+    width: 579px;
+    height: 303px;
+
+    padding-top: 210px;
+
+  }
+
+  .hero .hero-img-pacotes.section-title p {
+    font-size: 32px;
+    line-height: 150%;
+  }
+}
