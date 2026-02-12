@@ -68,3 +68,26 @@
     line-height: 150%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .hero .hero-img-pacotes {
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero .hero-img-pacotes {
+    height: 303px;
+    width: 579px;
+
+    margin: 0;
+    padding-left: 120px;
+    padding-top: 158px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .hero .hero-img-pacotes {
+    width: 764px;
+  }
+}
