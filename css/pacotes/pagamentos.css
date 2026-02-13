@@ -1,0 +1,77 @@
+.payments.payments-packages h3 {
+  font-size: 40px;
+
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.payments.payments-packages h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0 0 24px;
+}
+
+.payments.payments-packages p {
+  margin-bottom: 24px;
+}
+
+.payments.payments-packages .button {
+  display: block;
+  margin: 0 auto;
+}
+
+.payments.payments-packages .image.temple {
+  background-image: url(../../img/pacotes/pagamentos/templo-mobile.png);
+}
+
+.payments.payments-packages .image.city {
+  background-image: url(../../img/pacotes/pagamentos/cidade-mobile.png);
+
+}
+
+.payments.payments-packages .image.man {
+  background-image: url(../../img/pacotes/pagamentos/homem-mobile.png);
+
+}
+
+@media screen and (min-width: 768px) {
+  .payments.payments-packages .button {
+    display: none;
+  }
+
+  .payments.payments-packages .image.temple {
+    background-image: url(../../img/pacotes/pagamentos/templo-tablet.png);
+  }
+
+  .payments.payments-packages .image.city {
+    background-image: url(../../img/pacotes/pagamentos/cidade-tablet.png);
+
+  }
+
+  .payments.payments-packages .image.man {
+    background-image: url(../../img/pacotes/pagamentos/homem-tablet.png);
+
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments.payments-packages .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .payments.payments-packages .image.temple {
+    background-image: url(../../img/pacotes/pagamentos/templo-desktop.png);
+  }
+
+  .payments.payments-packages .image.city {
+    background-image: url(../../img/pacotes/pagamentos/cidade-desktop.png);
+
+  }
+
+  .payments.payments-packages .image.man {
+    background-image: url(../../img/pacotes/pagamentos/homem-desktop.png);
+
+  }
+}
