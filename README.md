@@ -1,0 +1,1 @@
+Site desenvolvido durante o curso HTML e CSS: responsividade em layouts da Alura.
