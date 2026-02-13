@@ -1,4 +1,4 @@
-.hero-pacotes {
+.hero.hero-pacotes {
   background-image: url(../../img/pacotes/hero-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -6,6 +6,7 @@
   background-position-x: -290px;
 
   height: 460px;
+  margin-bottom: 88px;
 }
 
 .hero .hero-img-pacotes {
@@ -40,7 +41,7 @@
 }
 
 @media screen and (min-width: 528px) {
-  .hero-pacotes {
+  .hero.hero-pacotes {
     background-position: center;
   }
 
@@ -51,7 +52,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-pacotes {
+  .hero.hero-pacotes {
     height: 620px;
   }
 
