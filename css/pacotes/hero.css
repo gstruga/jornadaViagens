@@ -85,6 +85,17 @@
     padding-left: 120px;
     padding-top: 158px;
   }
+
+  .hero.hero-blog .hero-img-pacotes {
+    height: 620px;
+    width: 100%;
+    padding-top: 159px;
+  }
+
+  .hero.hero-blog .hero-blog-content {
+    height: 620px;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 1900px) {

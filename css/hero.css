@@ -7,7 +7,24 @@
   background-size: cover;
 }
 
+.hero.hero-blog .hero-img-pacotes {
+  height: 460px;
+  width: 100%;
 
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hero-blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero.hero-blog .hero-blog-content {
+
+  width: 86%;
+  max-width: 579px;
+  height: 296px;
+  margin: 16px auto 0;
+}
 
 .footer-hero {
   height: 400px;
@@ -43,6 +60,26 @@
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
 
+  }
+
+
+  .hero.hero-blog .hero-img-pacotes {
+    height: 620px;
+    width: 100%;
+    padding-top: 159px;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/hero-blog-tablet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero.hero-blog .hero-blog-content {
+
+    width: 86%;
+    max-width: 579px;
+    height: 303px;
+    margin: 0 auto;
   }
 
   .footer-hero {
