@@ -1,0 +1,84 @@
+.tokyo {
+  margin-top: 88px;
+}
+
+.tokyo .section-title {
+  box-sizing: border-box;
+  margin-bottom: 56px;
+}
+
+.tokyo article {
+  margin-bottom: 32px;
+}
+
+.tokyo article h3 {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+.tokyo article p {
+  font-size: 20px;
+  line-height: 32px;
+
+}
+
+.tokyo .tokyo-dia {
+  width: 312px;
+  height: 360px;
+
+  background-image: url(../img/tokyo-de-dia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tokyo .tokyo-noite {
+  width: 312px;
+  height: 300px;
+
+  background-image: url(../img/tokyo-de-noite.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tokyo sub {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  margin-top: 8px;
+
+}
+
+@media screen and (min-width: 768px) {
+  .tokyo .section-title {
+    margin-bottom: 32px;
+  }
+
+  .tokyo article {
+    margin-bottom: 46px;
+  }
+
+  .tokyo .article-flex {
+    display: flex;
+    gap: 24px;
+  }
+
+  .tokyo .tokyo-noite {
+    width: inherit;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tokyo .tokyo-dia {
+    width: 425px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tokyo .tokyo-dia {
+    width: 588px;
+  }
+}
