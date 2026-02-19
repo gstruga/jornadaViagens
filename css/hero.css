@@ -18,6 +18,33 @@
   background-size: cover;
 }
 
+.hero.hero-contato .hero-img-pacotes {
+  height: 460px;
+  width: 100%;
+
+  background-position: center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/hero-contato.jpg);
+}
+
+.hero.hero-contato .hero-contato-content {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.hero .footer-hero.footer-hero-contato {
+  height: 400px;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/footer-hero-contato-mobile.png);
+}
+
 .hero.hero-blog .hero-blog-content {
 
   width: 86%;
@@ -74,8 +101,22 @@
     background-size: cover;
   }
 
-  .hero.hero-blog .hero-blog-content {
+  .hero.hero-contato .hero-contato-content {
+    width: 579px;
+    margin: 0 auto;
+  }
 
+  .hero.hero-contato .hero-img-pacotes {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/hero-contato-invertida.jpg);
+    height: 620px;
+  }
+
+  .hero.hero-contato .hero-contato-content {
+    width: 580px;
+    margin: 0 auto;
+  }
+
+  .hero.hero-blog .hero-blog-content {
     width: 86%;
     max-width: 579px;
     height: 303px;
@@ -102,6 +143,16 @@
     font-size: 32px;
   }
 
+  .hero .footer-hero.footer-hero-contato {
+    height: 600px;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/footer-hero-contato-tablet.png);
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -125,6 +176,12 @@
 
   }
 
+
+
+  /* .hero.hero-contato .hero-img-pacotes {
+    background-image: url(../img/hero-contato-desktop.jpg);
+  }
+ */
   .footer-hero.footer-hero-payments {
     background-image: url(../img/footer-img-payments-desktop.png);
   }
@@ -134,6 +191,18 @@
     font-size: 32px;
   }
 
+  .hero .footer-hero.footer-hero-contato {
+
+    background-image: url(../img/footer-hero-contato-desktop.png);
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .hero.hero-contato .hero-contato-content {
+    margin: 0 0 0 120px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -146,6 +215,7 @@
     background-size: cover;
 
   }
+
 
   .hero h2 {
     padding: 88px 160px;
